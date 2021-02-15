@@ -1,0 +1,109 @@
+Admin:
+	- id
+	- Name
+	- email
+	- phone
+	- gender
+	- password
+	- profile_pic
+	- Remember_token
+	- Active
+	- user_type
+	- deleted_at
+	- created_by
+	- updated_by
+
+User:
+	- id
+	- Name
+	- email
+	- phone
+	- country
+	- gender
+	- profile_pic
+	- password
+	- active
+	- remember_token
+	- Active
+	- deleted_at
+	- created_by
+	- updated_by
+
+Fcm_code:
+	- id
+	- User_id
+	- FCM_Code
+	- deleted_at
+	- created_by
+	- updated_by
+
+social_login:
+	- id
+	- User_id
+	- social_code
+	- provider
+	- deleted_at
+	- created_by
+	- updated_by
+
+user_type:
+	- id
+	- type
+	- name
+	- access
+	- active
+	- deleted_at
+	- created_by
+	- updated_by	
+
+admin_user_type:
+	- id
+	- type
+	- name
+	- active
+	- deleted_at
+	- created_by
+	- updated_by	
+
+role;
+	- id
+	- role
+	- desc
+	- active
+	- deleted_at
+	- created_by
+	- updated_by	
+
+user_permission:
+	- id
+	- user_id
+	- role_id
+	- active
+	- deleted_at
+	- created_by
+	- updated_by
+
+Login History:
+	- id
+	- user_id
+	- ip
+	- device_type
+	- deleted_at
+	- created_by
+	- updated_by
+
+Activity History:
+	- id
+	- user_id
+	- ip
+	- device_type
+	- activity
+	- deleted_at
+	- created_by
+	- updated_by
+
+
+-Track Activity of User
+- Track Search history
+- Track Login history
+
